@@ -37,12 +37,17 @@
 // })
 
 
-let parentElement=document.querySelector('.content')
-let parentArray=Array.from(parentElement.children)
-parentArray.forEach((e)=>{
-    e.classList.add("children")
+// let parentElement=document.querySelector('.content')
+// let parentArray=Array.from(parentElement.children)
+// parentArray.forEach((e)=>{
+//     e.classList.add("children")
     
-})
+// })
 
-let childElement=document.querySelector('h2')
-console.log(childElement.previousElementSibling)
+// let childElement=document.querySelector('h2')
+// console.log(childElement.previousElementSibling)
+
+
+
+// ++++++++++++++++++++ Event Basics ++++++++++++++
+
